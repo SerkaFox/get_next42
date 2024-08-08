@@ -3,20 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gemartin <gemartin@student.42barc...>      +#+  +:+       +#+        */
+/*   By: ssvitkin <ssvitkin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/07 00:41:32 by gemartin          #+#    #+#             */
-/*   Updated: 2022/03/02 12:48:07 by gemartin         ###   ########.fr       */
+/*   Created: 2024/08/08 18:24:46 by ssvitkin          #+#    #+#             */
+/*   Updated: 2024/08/08 18:28:40 by ssvitkin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-# include<unistd.h>
-# include<stdio.h>
-# include<stdlib.h>
-# include<fcntl.h>
-# include<limits.h>
+# include <unistd.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <fcntl.h>
+# include <limits.h>
 
 size_t	ft_strlcpy(char *dst, char *src, size_t dstsize);
 size_t	ft_strlen(char *s);

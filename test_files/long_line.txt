@@ -1,0 +1,1 @@
+This is a very long line that exceeds the usual buffer size to test how get_next_line handles large inputs.
